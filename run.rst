@@ -60,9 +60,9 @@ eg
 
 ::
 
-    ./xmlchange STOP_OPTION=ndays #(nyears, nmonths)
-    ./xmlchange STOP_N=5 #(then 5 days)
-    ./xmlchange NTASKS=1 #(number of CPU's, can be increased if excitation error)
+    ./xmlchange STOP_OPTION=ndays !(nyears, nmonths)
+    ./xmlchange STOP_N=5 !(then 5 days)
+    ./xmlchange NTASKS=128 !(number of CPU's)
 	
 or edit the xml files is another way to change these parameters
 
