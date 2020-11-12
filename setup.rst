@@ -6,9 +6,9 @@ Accounting
 
 For running CTSM, you usually need to have access to a High-Performance Computer.
 
-If you are working in Norway and at UiO, you can use abel and need to be part of an active account:
+If you are working in Norway, you can use either saga, fram, or betzy (depending on demands on parallel computing) and need to be part of an active account:
 
-- Notur or geofag
+- Notur
 
 To check which project you can use:
 
@@ -21,7 +21,7 @@ This will return something like:
 
 ::
 
-  geofag
+  nn2806k
   nn1000k
 
-In the example above, two projects can be used (geofag and nn1000k). Then make sure you choose the right project when running CTSM.
+In the example above, two projects can be used (nn2806k and nn1000k). Then make sure you choose the right project when running CTSM.
